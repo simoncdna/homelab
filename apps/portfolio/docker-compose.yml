@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  portfolio:
+    image: nginx:alpine
+    container_name: portfolio
+    ports:
+      - "3000:80"
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    restart: unless-stopped
