@@ -12,6 +12,7 @@ services:
     environment:
       TZ: "Europe/Paris"
       FTLCONF_dns_listeningMode: "all"
+      WEBPASSWORD: "${PIHOLE_PASSWORD}"
     volumes:
       - ./etc-pihole:/etc/pihole
       - ./etc-dnsmasq.d:/etc/dnsmasq.d
