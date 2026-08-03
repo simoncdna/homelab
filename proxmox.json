@@ -1,0 +1,23 @@
+{
+  "host": "haven",
+  "lxc": [
+    {
+      "vmid": 101,
+      "name": "infra",
+      "tags": "",
+      "services": ["caddy", "adguard"]
+    },
+    {
+      "vmid": 102,
+      "name": "apps",
+      "tags": "",
+      "services": ["blog", "portfolio"]
+    },
+    {
+      "vmid": 103,
+      "name": "gaming",
+      "tags": "",
+      "services": ["enshrouded"]
+    }
+  ]
+}

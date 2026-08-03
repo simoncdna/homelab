@@ -1,0 +1,8 @@
+{
+  "host": "routeur",
+  "layer": "network",
+  "services": [
+    "wireguard"
+  ],
+  "children": []
+}
